@@ -3,8 +3,8 @@ import java.util.HashMap;
 public class Test {
     public static void main(String[] args){
         System.out.println("Hello, World!");
-        Person p1 = Person.createPerson("ali");
-        Person p2 = Person.createPerson("ali");
+        Person p1 = Person.createPerson("Mohammed Ali");
+        Person p2 = Person.createPerson("Mohammed Ali");
         System.out.println(p1 == p2);
         System.out.println(p1.equals(p2));
         System.out.println(p1.getName());
