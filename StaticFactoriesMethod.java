@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 // Static factory method pattern implementation
-//This implementation is preferred over constructors for object creation
+//This implementation is preferred over constructors for object creation in certain scenarios
 
 public class StaticFactoriesMethod {
     public static void main(String[] args){
