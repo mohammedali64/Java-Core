@@ -1,14 +1,17 @@
 import java.util.HashMap;
 
-public class Test {
+// Static factory method pattern implementation
+//This implementation is preferred over constructors for object creation
+
+public class StaticFactoriesMethod {
     public static void main(String[] args){
         System.out.println("Hello, World!");
         Person p1 = Person.createPerson("Ali");
         Person p2 = Person.createPerson("Ali");
         System.out.println(p1 == p2);
         System.out.println(p1.equals(p2));
-        System.out.println(p1.getName());
-        System.out.println(p2.getName());
+        System.out.println(p1.getPersonName());
+        System.out.println(p2.getPersonName());
     }
 }
 
@@ -27,7 +30,8 @@ class Person {
             return p;
         }
     }
-    public String getName(){
+    public String getPersonName(){
         return name;
     }
 }
+
