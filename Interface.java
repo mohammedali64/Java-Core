@@ -1,10 +1,13 @@
 class Cat implements Animal {
+    @Override
     public void name(String name){
         System.out.println("Cat");
     }
+    @Override
     public void sound(String sound){
         System.out.println("Meow Meow");
     }
+    @Override
     public void food(String food){
         System.out.println("Fish");
     }
@@ -14,12 +17,15 @@ class Cat implements Animal {
 }
 
 class Dog implements Animal {
+    @Override
     public void name(String name){
         System.out.println("Dog");
     }
+    @Override
     public void sound(String sound){
         System.out.println("Bark Bark");
     }
+    @Override
     public void food(String food){
         System.out.println("Bone");
     }
