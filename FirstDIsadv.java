@@ -14,3 +14,6 @@ class Employee extends Person {  // ❌ ERROR
     }
 }
 // To fix this, Person class should have a protected or public constructor
+
+
+
